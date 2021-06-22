@@ -1,0 +1,6 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+patchesStrategicMerge:
+  - deployment_patch.yaml
+resources:
+  - https://github.com/alaghusundhar/sundar-k8s-demo-dev/base/?ref=v1.0.0

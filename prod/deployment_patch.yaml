@@ -1,0 +1,8 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: sundar-demo-app1
+  name: sundar-demo-app1
+spec:
+  replicas: 2
