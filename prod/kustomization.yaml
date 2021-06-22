@@ -3,4 +3,4 @@ kind: Kustomization
 patchesStrategicMerge:
   - deployment_patch.yaml
 resources:
-  - https://github.com/alaghusundhar/sundar-k8s-demo-dev/base/?ref=v1.0.0
+  - https://github.com/maaanish/hello-kubernetes-dev-config/base/?ref=v1.0

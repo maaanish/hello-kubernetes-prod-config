@@ -1,1 +1,1 @@
-# sundar-k8s-demo-prod# hello-kubernetes-prod-config
+# hello-kubernetes-prod-config
