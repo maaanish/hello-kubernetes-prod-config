@@ -3,4 +3,5 @@ kind: Kustomization
 resources:
   - https://github.com/maaanish/hello-kubernetes-dev-config/base/?ref=v1.0
 patchesStrategicMerge:
-  - deployment_patch.yaml
+  - custom-env.yaml
+  - replica-count.yaml
